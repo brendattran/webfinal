@@ -1,0 +1,1309 @@
+body {
+	font-family: avenir;
+	font-size: 16pt;
+	margin-top: 15px;
+}
+
+h1 {
+	font-family: avenir-black;
+	font-size: 28pt;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 50px;
+}
+
+h2 {
+	font-family: avenir;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-family: avenir-medium;
+	font-size: 16pt;
+	font-weight: bold;
+	letter-spacing: .5px;
+}
+
+h4 {
+	font-family: avenir-black;
+	font-size: 16pt;
+	letter-spacing: .5px;
+}
+
+p {
+	font-family: avenir;
+	font-size: 14pt;
+	margin-top: 15px;
+	line-height: 28px;
+}
+
+span {
+	display: block;
+	margin: 70px;
+}
+
+@font-face {
+	font-family: avenir;
+	src:url("../fonts/avenir.ttc");
+}
+
+@font-face {
+	font-family: avenir-medium;
+	src:url("../fonts/avenir-medium.ttf");
+}
+
+@font-face {
+	font-family: avenir-black;
+	src:url("../fonts/avenir-black.ttf");
+}
+
+@font-face {
+	font-family: avenir-bold;
+	src:url("../fonts/avenir-bold.otf");
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.caption {
+	font-family: avenir;
+	font-size: 10pt;
+	line-height: 18pt;
+	margin-top: 80px;
+}
+
+.pull-quote {
+	font-family: avenir-black;
+	font-style: italic;
+	color: #f73852;
+	font-size: 28pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 700px;
+	line-height: 32pt;
+}
+
+.pull-quote2 {
+	font-family: avenir-black;
+	color: gold;
+	font-size: 36pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 700px;
+	line-height: 50pt;
+}
+
+#sub_text {
+	text-decoration: none;
+	color: black;
+}
+
+
+#sub_text-menu {
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	margin-left: 30px;
+}
+
+#menu-social-media {
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	bottom: 50px;
+	left: 80px;
+}
+
+#sub_text-menu:hover {
+	color: darkgrey;
+}
+
+#sub_text:hover {
+	color: darkgrey;
+}
+
+#sub_text2 {
+	text-decoration: none;
+	color: white;
+}
+
+#sub_text2:hover {
+	color: lightgrey;
+}
+
+#sub_text-gold {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-gold:hover {
+	color: gold;
+}
+
+
+#sub_text-blue {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-blue:hover {
+	color: lightblue;
+}
+
+#sub_text-red {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-red:hover {
+	color: firebrick;
+}
+
+#sub_text-green {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-green:hover {
+	color: green;
+}
+
+#header {
+	position:absolute;
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+
+}
+
+#menu-icon {
+	background-image: url("../images/menu-icon.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 30px;
+}
+
+#menu-icon:hover {
+	background-image: url("../images/menu-icon.png");
+	opacity: 0.2;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 30px;
+}
+
+#menu {
+	width: 300px;
+	height: 495px;
+	position: fixed;
+	top: 0px;
+	background-color: #ebebeb;
+	color: black;
+	padding-top: 100px;
+	padding-left: 50px;
+	z-index: 3;
+	display: none;
+}
+
+#x-black {
+	background: url('../images/x-black.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#x-black:hover {
+	background: url('../images/x-grey.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#search {
+	background-image: url("../images/search-icon.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 80px;
+}
+
+#postbulletin {
+	background-image: url("../images/pb-logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 200px;
+	height: 53px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+#subscribe {
+	position: absolute;
+	font-family: avenir;
+	text-decoration: none;
+	color: black;
+	width: 100px;
+	height: 50px;
+	right: 30px;
+	top: 35px;
+	float: right;
+}
+
+#headlines-container {
+	background-image: url("../images/liebling.jpg");
+	background-repeat: no-repeat fixed;
+	background-attachment: fixed;
+	background-position: 50% 0%;
+	background-size: 100%;
+	width: 100%;
+	height: 500px;
+	top: 95px;
+	position: absolute;
+	-webkit-background-size: cover;
+}
+
+#headlines-container-rctc {
+	background-image: url("../images/sophia.jpg");
+	background-position: 50% 20%;
+	background-attachment: fixed;
+	background-repeat: no-repeat fixed;
+	background-size: 100%;
+	width: 100%;
+	height: 500px;
+	top: 95px;
+	position: absolute;
+}
+
+#headlines-black {
+	width: 100%;
+	height: 230px;
+	position: absolute;
+	top: 270px;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+#headlines-category {
+	width: 70px;
+	height: 15px;
+	position: absolute;
+	opacity: 1;
+	top: 310px;
+	left: 65px;
+	font-size: 16px;
+	color: white;
+	padding: 8px;
+	border: 2px solid white;
+	z-index: 2;
+}
+
+#headlines-category-rctc {
+	width: 105px;
+	height: 15px;
+	position: absolute;
+	opacity: 1;
+	top: 310px;
+	left: 65px;
+	font-size: 16px;
+	color: white;
+	padding: 8px;
+	border: 2px solid white;
+	z-index: 2;
+}
+
+#headlines-title {
+	width: 1200px;
+	height: 200px;
+	left: 65px;
+	font-size: 48px;
+	font-weight: 900;
+	position: absolute;
+	top: 365px;
+	color: white;
+	z-index: 2;	
+}
+
+#headlines-subtitle {
+	width: 1200px;
+	height: 100px;
+	left: 65px;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 430px;
+	color: white;
+	z-index: 2;	
+}
+
+#top-stories {
+	width: 1150px;
+	height: 1000px;
+	margin-left: 50%;
+	left: -575px;
+	top: 630px;
+	position: absolute;
+}
+
+#top-title {
+	width: 200px;
+	height: 100px;
+	left: 65px;
+	font-weight: bold;
+	font-size: 28px;
+	color: black;
+}
+
+#story-1-img {
+	background-image: url('../images/daysinn.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 70px;
+	left: 0px;
+
+}
+
+#story-1-category {
+	width: 73px;
+	height: 18px;
+	position: absolute;
+	background-color: gold;
+	top: 65px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+}
+
+#top-story-1 {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 100px;
+	left: 600px;
+}
+
+#story-2-img {
+	background-image: url('../images/teapartytactics.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 450px;
+	right: 0px;
+}
+
+#story-2-category {
+	width: 95px;
+	height: 18px;
+	position: absolute;
+	top: 450px;
+	font-size: 16px;
+	padding: 8px;
+	background-color: lightblue;
+	color: white;
+}
+
+#top-story-2 {
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	color: black;
+	top: 490px;
+}
+
+#story-3-img {
+	background-image: url('../images/foolsfive.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 805px;
+	left: 0px;
+}
+
+#story-3-category {
+	width: 73px;
+	height: 18px;
+	position: absolute;
+	top: 805px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	background-color: firebrick;
+	color: white;
+}
+
+#top-story-3 {
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 840px;
+	left: 600px;
+}
+
+#story-4-img {
+	background-image: url('../images/drdiehl.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1190px;
+	left: 0px;
+}
+
+#story-4-category {
+	width: 85px;
+	height: 18px;
+	position: absolute;
+	top: 1190px;
+	left: 235px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#top-story-4 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1240px;
+	left: 235px;
+}
+
+#story-5-img {
+	background-image: url('../images/vinyl.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1190px;
+	left: 600px;
+}
+
+#story-5-category {
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 1190px;
+	left: 835px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#top-story-5 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1240px;
+	left: 835px;
+}
+
+#recent-story-1-img {
+	background-image: url('../images/quarryhill.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 80px;
+	left: 0px;
+}
+
+#recent-story-1-category {
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 80px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#recent-story-1 {
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 115px;
+	left: 600px;
+}
+
+#recent-story-2-img {
+	background-image: url('../images/oddchester.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 450px;
+	left: 0px;
+}
+
+#recent-story-2-category {
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 450px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#recent-story-2 {
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 485px;
+	left: 600px;
+}
+
+#recent-story-3-img {
+	background-image: url('../images/beasantiques.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 825px;
+	left: 0px;
+}
+
+#recent-story-3-category {
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 825px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#recent-story-3 {
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 865px;
+	left: 600px;
+}
+
+#recent-story-4-img {
+	background-image: url('../images/stolaf.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 1200px;
+	left: 0px;
+}
+
+#recent-story-4-category {
+	width: 130px;
+	height: 18px;
+	position: absolute;
+	top: 1200px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#recent-story-4 {
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1240px;
+	left: 600px;
+}
+
+#ad1 {
+	background: url('../images/rpl-ad.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	background-color: green;
+	top: 2200px;
+	box-shadow: 0px 1px 4px 1px lightgrey;
+}
+
+#ad2 {
+	background: url('../images/rpl-ad.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	background-color: green;
+	top: 2200px;
+	box-shadow: 0px 1px 4px 1px lightgrey;
+}
+
+#recent-stories {
+	width: 1150px;
+	height: 1000px;
+	position: absolute;
+	top: 2525px;
+	left: 65px;
+}
+
+#recent-title {
+	width: 300px;
+	height: 70px;
+	position: absolute;
+	font-color: black;
+}
+
+#promo {
+	background: url('../images/promo.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 320px;
+	position: absolute;
+	top: 4100px;
+	box-shadow: 0px 1px 4px 1px lightgrey;
+}
+
+
+#footerline {
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	background-color: #ebebeb;
+	top: 4420px;
+}
+
+#footer {
+	width: 1150px;
+	height: 400px;
+	position: absolute;
+	top: 4470px;
+	left: 50%;
+	margin-left: -575px;
+}
+
+#footer2 {
+	width: 1150px;
+	height: 400px;
+	position: absolute;
+	top: 3080px;
+	left: 50%;
+	margin-left: -575px;
+}
+
+
+#footer-column2 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 380px;
+	top: 0px;
+}
+
+#footer-column3 {
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 770px;
+	top: 0px;
+}
+
+#postbulletin-footer {
+	background-image: url("../images/pb-logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 200px;
+	height: 53px;
+}
+
+#socialmedia-footer {
+	width: 200px;
+	height: 30px;
+	float: left;
+	padding-right: 100px;
+	position: absolute;
+	left: 220px;
+}
+
+
+#social-media {
+	width: 130px;
+	height: 50px;
+	position: absolute;
+	top: 640px;
+	left: 150px;
+}
+
+#short-form {
+	width: 700px;
+	height:1550px;
+	position: absolute;
+	top: 620px;
+	left: 290px;
+}
+
+#ad3 {
+	background: url('../images/ad3.svg');
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	border: 1px solid #a05ea6;
+	right: 65px;
+	top: 1600px;
+}
+
+#related-container {
+	width: 100%;
+	height: 590px;
+	position: absolute;
+	background-color: gold;
+	top: 2450px;
+	z-index: -1;
+}
+
+#related-title {
+	width: 700px;
+	height: 100px;
+	position: absolute;
+	top: 10px;
+	left: 290px;
+}
+
+#related-stories {
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+
+#related-stories-img-1 {
+	background: url('../images/inventors.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 180px;
+	height: 180px;
+}
+
+#related-stories-img-2 {
+	background: url('../images/geographybee.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	top: 345px;
+}
+
+#section-page {
+	width: 1150px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -575px;
+}
+
+#section-header {
+	width: 1150px;
+	height:100px;
+	position: absolute;
+}
+
+#section-story-1-img {
+	background-image: url('../images/bales.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 30%;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 120px;
+	left: 0px;
+
+}
+
+#section-story-1-category {
+	width: 140px;
+	height: 18px;
+	position: absolute;
+	background-color: gold;
+	top: 120px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+}
+
+#section-story-1 {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 600px;
+}
+
+#section-story-2-img {
+	background-image: url('../images/geographybee.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 490px;
+	right: 0px;
+}
+
+#section-story-2-category {
+	width: 130px;
+	height: 18px;
+	position: absolute;
+	top: 490px;
+	font-size: 16px;
+	padding: 8px;
+	background-color: lightblue;
+	color: white;
+}
+
+#section-story-2 {
+	width: 480px;
+	height: 400px;
+	position: absolute;
+	color: black;
+	top: 530px;
+}
+
+#section-story-3-img {
+	background-image: url('../images/greatwar.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 850px;
+	left: 0px;
+}
+
+#section-story-3-category {
+	width: 150px;
+	height: 18px;
+	position: absolute;
+	top: 850px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	background-color: firebrick;
+	color: white;
+}
+
+#section-story-3 {
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 890px;
+	left: 600px;
+}
+
+#section-4-img {
+	background-image: url('../images/drdiehl.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1240px;
+	left: 0px;
+}
+
+#section-story-4-category {
+	width: 85px;
+	height: 18px;
+	position: absolute;
+	top: 1240px;
+	left: 235px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#section-story-4 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1290px;
+	left: 235px;
+}
+
+#section-5-img {
+	background-image: url('../images/vinyl.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1240px;
+	left: 600px;
+}
+
+#section-story-5-category {
+	width: 70px;
+	height: 18px;
+	position: absolute;
+	top: 1240px;
+	left: 835px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#section-story-5 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1290px;
+	left: 835px;
+}
+
+#section-6-img {
+	background-image: url('../images/police.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1650px;
+	left: 0px;
+}
+
+#section-story-6-category {
+	width: 220px;
+	height: 18px;
+	position: absolute;
+	top: 1650px;
+	left: 235px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#section-story-6 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1700px;
+	left: 235px;
+}
+
+#section-7-img {
+	background-image: url('../images/dmc.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 1650px;
+	left: 600px;
+}
+
+#section-story-7-category {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 1650px;
+	left: 835px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: green;
+}
+
+#section-story-7 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	color: black;
+	top: 1725px;
+	left: 835px;
+}
+
+#section-recent-story-1-img {
+	background-image: url('../images/chateau.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 80px;
+	left: 0px;
+}
+
+#section-recent-story-1-category {
+	width: 105px;
+	height: 18px;
+	position: absolute;
+	top: 80px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#section-recent-story-2-img {
+	background-image: url('../images/salon.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 450px;
+	left: 0px;
+}
+
+#section-recent-story-2-category {
+	width: 105px;
+	height: 18px;
+	position: absolute;
+	top: 450px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#section-recent-story-3-img {
+	background-image: url('../images/goodhue.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 825px;
+	left: 0px;
+}
+
+#section-recent-story-3-category {
+	width: 105px;
+	height: 18px;
+	position: absolute;
+	top: 825px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#section-recent-story-4-img {
+	background-image: url('../images/inventors.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	position: absolute;
+	width: 550px;
+	height: 326px;
+	top: 1200px;
+	left: 0px;
+}
+
+#section-recent-story-4-category {
+	width: 130px;
+	height: 18px;
+	position: absolute;
+	top: 1200px;
+	left: 600px;
+	font-size: 16px;
+	padding: 8px;
+	color: white;
+	background-color: grey;
+}
+
+#special-report-container1 {
+	width: 100%;
+	height:525px;
+	position: absolute;
+	top: 100px;
+}
+
+#special-report-title {
+	width: 445px;
+	height: 310px;
+	position: absolute;
+	background-color: #f8f8f8;
+	padding-left: 65px;
+	padding-top: 65px;
+	color: black;
+}
+
+#special-report-description {
+	width: 415px;
+	height: 190px;
+	position: absolute;
+	background-color: #ebebeb;
+	padding-left: 65px;
+	padding-right: 20px;
+	padding-top: 10px;
+	top:350px;
+	color: black;
+	z-index: 1;
+}
+
+#special-report-line {
+	width: 300px;
+	height: 8px;
+	position: absolute;
+	background-color: black;
+	top: 240px;
+}
+
+#special-report-title-img {
+	background: url('../images/rochester2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 780px;
+	height: 550px;
+	right: 0px;
+}
+
+#special-report-backdrop1 {
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	background-color: white;
+	top: 680px;
+	z-index: -1;
+}
+
+#special-report-container2 {
+	width: 700px;
+	height: 650px;
+	position: absolute;
+	top: 680px;
+	left: 50%;
+	margin-left: -350px;
+}
+
+#special-report-backdrop2 {
+	background: url('../images/mayoclinic.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: 0% 80%;
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 1100px;
+	z-index: -2;
+}
+
+#special-report-backdrop3 {
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	top: 1900px;
+	z-index: -3;
+}
+
+#special-report-container3 {
+	width: 700px;
+	height: 1000px;
+	position: absolute;
+	top: 1940px;
+	left: 50%;
+	margin-left: -350px;
+	color: black;
+}
+
+#dmc-drawing {
+	background: url('../images/dmc-drawing2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	z-index: -4;
+	top: 2800px;
+}
+
+#dmc-drawing-quote {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+#special-report-container4 {
+	width: 700px;
+	height: 1150px;
+	position: absolute;
+	background-color: white;
+	top: 3300px;
+	left: 50%;
+	margin-left: -350px;
+	color: black;
+}
