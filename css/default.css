@@ -173,6 +173,34 @@ html,body {
 	color: green;
 }
 
+
+#sub_text-purple {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-purple:hover {
+	color: purple;
+}
+
+#sub_text-orange {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-orange:hover {
+	color: orange;
+}
+
+#sub_text-navy {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_text-navy:hover {
+	color: navy;
+}
+
 #header {
 	position:absolute;
 	width: 100%;
@@ -457,7 +485,7 @@ html,body {
 	left: 600px;
 	font-size: 16px;
 	padding: 8px;
-	background-color: firebrick;
+	background-color: gold;
 	color: white;
 }
 
@@ -522,7 +550,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: green;
+	background-color: purple;
 }
 
 #top-story-5 {
@@ -554,7 +582,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: gold;
 }
 
 #recent-story-1 {
@@ -586,7 +614,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: gold;
 }
 
 #recent-story-2 {
@@ -618,7 +646,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: gold;
 }
 
 #recent-story-3 {
@@ -663,13 +691,12 @@ html,body {
 }
 
 #ad1 {
-	background: url('../images/rpl-ad.svg');
+	background: url('../images/rpl-ad.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 300px;
 	position: absolute;
-	background-color: green;
 	top: 2200px;
 	box-shadow: 0px 1px 4px 1px lightgrey;
 }
@@ -792,7 +819,8 @@ html,body {
 }
 
 #ad3 {
-	background: url('../images/ad3.svg');
+	background: url('../images/ad3.png');
+	background-size: 100%;
 	width: 200px;
 	height: 300px;
 	position: absolute;
@@ -873,7 +901,7 @@ html,body {
 }
 
 #section-story-1-category {
-	width: 140px;
+	width: 75px;
 	height: 18px;
 	position: absolute;
 	background-color: gold;
@@ -911,7 +939,7 @@ html,body {
 	top: 490px;
 	font-size: 16px;
 	padding: 8px;
-	background-color: lightblue;
+	background-color: grey;
 	color: white;
 }
 
@@ -1007,7 +1035,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: green;
+	background-color: purple;
 }
 
 #section-story-5 {
@@ -1039,7 +1067,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: green;
+	background-color: orange;
 }
 
 #section-story-6 {
@@ -1104,7 +1132,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: navy;
 }
 
 #section-recent-story-2-img {
@@ -1128,7 +1156,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: navy;
 }
 
 #section-recent-story-3-img {
@@ -1152,7 +1180,7 @@ html,body {
 	font-size: 16px;
 	padding: 8px;
 	color: white;
-	background-color: grey;
+	background-color: navy;
 }
 
 #section-recent-story-4-img {
